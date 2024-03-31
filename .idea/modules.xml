@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/connector-health/connector-health.iml" filepath="$PROJECT_DIR$/connector-health/connector-health.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debezium-connector-ibmi/debezium-connector-ibmi.iml" filepath="$PROJECT_DIR$/debezium-connector-ibmi/debezium-connector-ibmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debezium-connector-ibmi-parent.iml" filepath="$PROJECT_DIR$/debezium-connector-ibmi-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/journal-parsing/journal-parsing.iml" filepath="$PROJECT_DIR$/journal-parsing/journal-parsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jt400-override-ccsid/jt400-override-ccsid.iml" filepath="$PROJECT_DIR$/jt400-override-ccsid/jt400-override-ccsid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-smt-collection/kafka-smt-collection.iml" filepath="$PROJECT_DIR$/kafka-smt-collection/kafka-smt-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structured-logging/structured-logging.iml" filepath="$PROJECT_DIR$/structured-logging/structured-logging.iml" />
+    </modules>
+  </component>
+</project>

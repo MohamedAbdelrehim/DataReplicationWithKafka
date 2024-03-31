@@ -1,0 +1,30 @@
+{
+  "name": "db2-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.db2as400.As400RpcConnector",
+    "schema": "TESTPACMAN",
+    "sanitize.field.names": "true",
+    "tasks.max": "1",
+    "hostname": "brvztdm.at.strabag.com",
+    "dbname": "TESTPACMAN",
+    "user": "ABDELREHIM",
+    "password": "06xgmTbH+3",
+    "port": "9471",
+    "secure": true,
+    "poll.interval.ms": "2000",
+    "transforms": "unwrap",
+    "transforms.unwrap.delete.handling.mode": "rewrite",
+    "transforms.unwrap.drop.tombstones": "false",
+    "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+    "database.include.list": "TESTPACMAN",
+    "table.include.list": "PMPCP100",
+    "snapshot.mode": "initial",
+
+    "key.converter.schema.registry.url": "http://schema-registry:8081",
+    "value.converter.schema.registry.url": "http://schema-registry:8081",
+    "value.converter":"org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+
+    "snapshot.max.threads": 4
+  }
+}

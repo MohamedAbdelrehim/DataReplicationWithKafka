@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="testpacman@brvztdm.at.strabag.com" uuid="4f931c94-434c-459e-b14d-eb7c61590c25">
+      <driver-ref>db2.jtopen</driver-ref>
+      <jdbc-driver>com.ibm.as400.access.AS400JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:as400://brvztdm.at.strabag.com/testpacman;secure=true;naming=sql;errors=full;date format=iso;prompt=false;data compression=true; database name=XSMDATA; query optimize goal=2</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

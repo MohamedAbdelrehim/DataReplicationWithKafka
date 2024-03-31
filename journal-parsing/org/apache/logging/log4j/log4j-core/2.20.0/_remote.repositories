@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Mar 31 15:51:37 CEST 2024
+log4j-core-2.20.0.jar>central=
+log4j-core-2.20.0.pom>central=
+log4j-core-2.20.0.pom>BRVZ_Public=
+log4j-core-2.20.0.jar>BRVZ_Public=
