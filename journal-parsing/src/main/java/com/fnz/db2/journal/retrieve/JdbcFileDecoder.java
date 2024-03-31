@@ -95,17 +95,7 @@ public class JdbcFileDecoder extends JournalFileEntryDecoder {
 	}
 
 	public Object[] decodeEntry(AS400Structure entryDetailStructure, byte[] data, int offset) {
-		try {
-			return (Object[]) entryDetailStructure.toObject(data, offset);
-		} catch (NumberFormatException e) {
-			// Log the error and any relevant information
-			log.error("Error decoding entry specific data: {}", e.getMessage());
-			log.error("Data: {}", Arrays.toString(data));
-			log.error("Offset: {}", offset);
-
-			// Handle the error gracefully, e.g., return null or an empty array
-			return new Object[0];
-		}
+		return (Object[]) entryDetailStructure.toObject(data, offset);
 	}
 
 
