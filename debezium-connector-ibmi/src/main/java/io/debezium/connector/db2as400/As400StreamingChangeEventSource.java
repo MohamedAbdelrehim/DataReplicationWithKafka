@@ -315,7 +315,7 @@ public class As400StreamingChangeEventSource implements StreamingChangeEventSour
             } catch (IOException | SQLNonTransientConnectionException e) {
                 throw e;
             } catch (final Exception e) {
-                log.error("Failed to process record TEEEEEEEEEST", e);
+                log.error("Failed to process record", e);
             }
         };
     }
